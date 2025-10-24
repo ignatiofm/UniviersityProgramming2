@@ -3,7 +3,7 @@ package ru.mirea.fedoseev.practice2;
 public class Author {
     private String name;
     private String email;
-    private char gender; // 'M' - мужчина, 'F' - женщина, 'U' - неизвестно
+    private char gender;
 
     public Author(String name, String email, char gender) {
         this.name = name;

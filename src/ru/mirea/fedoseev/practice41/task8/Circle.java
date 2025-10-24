@@ -1,18 +1,16 @@
-package ru.mirea.fedoseev.practice3;
+package ru.mirea.fedoseev.practice41.task8;
 
 public class Circle extends Shape {
-    protected double radius;
+    private double radius;
 
     public Circle() {
+        super();
         this.radius = 1.0;
-        this.color = "blue";
-        this.filled = false;
     }
 
     public Circle(double radius) {
+        super();
         this.radius = radius;
-        this.color = "blue";
-        this.filled = false;
     }
 
     public Circle(double radius, String color, boolean filled) {
@@ -40,6 +38,6 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle[radius=" + radius + ", color=" + color + ", filled=" + filled + "]";
+        return "Circle[radius=" + radius + ",color=" + color + ",filled=" + filled + "]";
     }
 }

@@ -6,9 +6,9 @@ public class TestAuthor {
         Author a2 = new Author("Sue Grant", "suGrant@somewhere.com", 'F');
         Author a3 = new Author("Unknown Writer", "unknown@nowhere.com", 'U');
 
-        System.out.println(a1); // Tan Ah Teck (M) at ahTeck@somewhere.com
-        System.out.println(a2); // Sue Grant (F) at suGrant@somewhere.com
-        System.out.println(a3); // Unknown Writer (U) at unknown@nowhere.com
+        System.out.println(a1);
+        System.out.println(a2);
+        System.out.println(a3);
 
         a1.setEmail("newEmail@domain.com");
         System.out.println("After email change: " + a1.getEmail());
